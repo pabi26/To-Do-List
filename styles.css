@@ -1,0 +1,39 @@
+body{
+    background-color: rebeccapurple;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    border-bottom: 1px black solid;
+}
+
+
+#input-task{
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+
+#add-item-button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#add-list-item:hover,
+#add-list-item:active{
+    transform: scale(1.2);
+}
+
+#task-list{
+    text-align: left;
+}
+
+#task-list button{
+    text-align: right;
+}
