@@ -18,7 +18,7 @@ addItemBtn?.addEventListener("click", function(event){
 function addTask() {
     // Create a new task item
     const newTask = document.createElement('li');
-    newTask.innerText = inputTask.value;
+    newTask.innerText = "-" + " " + inputTask.value;
 
     // Add a delete button to the task item
     const deleteButton = document.createElement('button');
