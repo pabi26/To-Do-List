@@ -42,6 +42,7 @@ body{
     border-radius: 10px;
     border: none;
     border: 1px black solid;
+    color: black;
 }
 
 #add-item-button:hover,
@@ -54,6 +55,7 @@ li{
     justify-content: space-between;
     align-items: center; /* center items vertically */
     margin-bottom: 4px;
+    font-size: 1.1rem;
 }
   
 li button{
